@@ -1,0 +1,155 @@
+.numbering {
+    padding-bottom: 100px;
+}
+
+.container_numbering {
+    max-width: 434px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.container_numbering,
+.numbering_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.numbering_block {
+    margin-left: 24px;
+    margin-right: 24px;
+    -webkit-column-gap: 4px;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
+}
+
+.numbering_btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #334155;
+    position: relative;
+}
+
+.back {
+    width: 59px;
+    height: 22px;
+}
+
+.back::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-image: url("../../images/arrow1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 52%;
+    left: -6px;
+    rotate: 90deg;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.forward {
+    width: 67px;
+    height: 22px;
+}
+
+.forward::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-image: url("../../images/arrow1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    rotate: -90deg;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.numbering_block .numbering_btn {
+    width: 40px;
+    height: 40px;
+    padding: 9px 10px;
+    border-radius: 4px;
+}
+
+.numbering_block .numbering_btn:hover {
+    background-color: #edf0f3;
+}
+
+.numbering_btn__box .numbering_active {
+    background-color: #255cd2;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 9px 10px;
+    border-radius: 4px;
+}
+
+.numbering_block .active:hover {
+    background-color: #255cd2;
+}
+
+@media screen and (max-width: 500px) {
+    .numbering {
+        padding-bottom: 60px;
+    }
+
+    .container_numbering {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
+        column-gap: 0;
+        row-gap: 0;
+    }
+
+    .numbering_btn {
+        width: 53px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    .back::after {
+        top: 49%;
+    }
+
+    .forward::before {
+        right: -12px;
+    }
+
+    .numbering_block {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .numbering_btn__box:nth-child(4) {
+        display: none;
+    }
+
+    .numbering_block .numbering_btn {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+}

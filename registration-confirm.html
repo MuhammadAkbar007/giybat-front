@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/pagination.css" />
+        <link rel="stylesheet" href="./css/main-page.css" />
+        <link rel="stylesheet" href="./css/postlarim.css" />
+        <link rel="stylesheet" href="./css/search-result.css" />
+        <link rel="stylesheet" href="./css/craete-post.css" />
+        <link rel="stylesheet" href="./css/cabinet-settings.css" />
+        <link rel="stylesheet" href="./css/login.css" />
+        <link rel="stylesheet" href="./css/detail-paga.css" />
+        <link rel="stylesheet" href="./css/cabinet-profiller.css" />
+        <link rel="stylesheet" href="./css/registratio-confirm.css" />
+        <link rel="stylesheet" href="./css/registration.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header_container">
+                        <div class="header_box__logo">
+                            <a href="index.html">
+                                <img
+                                    src="./images/logo.png"
+                                    alt="Book"
+                                    class="header_logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="header_block">
+                            <div class="header_box__input">
+                                <input
+                                    type="text"
+                                    placeholder="Поиск"
+                                    class="header_input"
+                                />
+                                <button class="header_search"></button>
+                            </div>
+                            <div class="dropdown">
+                                <div
+                                    class="dropdown_toggle"
+                                    onclick="toggleDropdown()"
+                                >
+                                    <img
+                                        src="./images/language.svg"
+                                        alt="Глобус"
+                                        width="24"
+                                        height="24"
+                                    />
+                                    <span id="current-lang">RU</span>
+                                    <!-- Добавляем стрелку в виде символа -->
+                                    <img
+                                        src="./images/arrow1.svg"
+                                        alt="arrow"
+                                        class="arrow"
+                                    />
+                                    <!-- Стрелка вниз (▼) -->
+                                </div>
+                                <div
+                                    class="dropdown-content"
+                                    id="dropdown-content"
+                                >
+                                    <div onclick="setLanguage('UZ')">UZ</div>
+                                    <div onclick="setLanguage('RU')">RU</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="registrationLast" id="registrationLast">
+                <div class="container">
+                    <div class="registration-container">
+                        <h1 class="registrationLast_title">
+                            Ro’yxatdan o’tish
+                        </h1>
+                        <p class="registrationLast_text">
+                            Telefon raqamni tastiqlash uchun  <strong
+                                >+998 91 572-12-13</strong
+                            >
+                            quyidagi raqamiga 5 xonali son jo’natilfi.
+                        </p>
+                        <div class="code-input-container">
+                            <input
+                                type="text"
+                                maxlength="1"
+                                class="code-input"
+                            />
+                            <input
+                                type="text"
+                                maxlength="1"
+                                class="code-input"
+                            />
+                            <input
+                                type="text"
+                                maxlength="1"
+                                class="code-input"
+                            />
+                            <input
+                                type="text"
+                                maxlength="1"
+                                class="code-input"
+                            />
+                            <input
+                                type="text"
+                                maxlength="1"
+                                class="code-input"
+                            />
+                        </div>
+                        <a href="#" class="resend-link"
+                            >Sms kodni takror jo’natish</a
+                        >
+                        <button class="register-btn" onclick="submitForm()">
+                            Ro’yxatdan o’tish
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_container">
+                    <div class="footer_logo__box">
+                        <a href="index.html">
+                            <img
+                                src="./images/logo2.png"
+                                alt="Book"
+                                class="header_logo"
+                            />
+                        </a>
+                    </div>
+                    <ul class="footer_list">
+                        <li class="footer_item">
+                            <a href="" class="footer_link">About project</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Telegram</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Videohub.uz</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Dasturlash.uz</a>
+                        </li>
+                        <li class="footer_item">© All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/registration3.js"></script>
+    </body>
+</html>

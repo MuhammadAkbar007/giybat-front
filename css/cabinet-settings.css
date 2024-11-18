@@ -1,0 +1,72 @@
+.shahsiy_settings__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47.6px;
+    margin-bottom: 40px;
+}
+
+.shahsiy_settings {
+    margin-bottom: 40px;
+}
+
+.shahsiy_photo__titles,
+.shahsiy_data {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 24px;
+}
+
+.shahsiy_photo {
+    border-radius: 30px;
+    max-width: 220px;
+    width: 100%;
+}
+
+.shahsiy_content {
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.shahsiy_data {
+    margin-bottom: 32px;
+}
+
+.shahsiy_block {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.shahsiy_span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+.shahsiy_name,
+.shahsiy_tel,
+.shahsiy_password {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.shahsiy_data__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    padding: 12px 60px;
+    border-radius: 30px;
+    background-color: #edf0f3;
+}

@@ -1,0 +1,65 @@
+.carSearch {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.carSearch_container .cars_list {
+    margin-bottom: 39px;
+}
+
+.carSearch_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.carSearch_title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42.84px;
+    margin-bottom: 40px;
+    margin-right: 36px;
+}
+
+.carSearch_span {
+    font-size: 16px;
+    line-height: 20.48px;
+    margin-bottom: 40px;
+    color: #334155;
+}
+
+.carSearch_box {
+    margin-bottom: 40px;
+}
+
+.carSearch_input__box {
+    width: 100%;
+    position: relative;
+}
+
+.carSearch_input {
+    width: 100%;
+    padding: 14px 24px;
+    outline: none;
+    border: 1px solid #d4dde8;
+    border-radius: 30px;
+}
+
+.carSearch_btn {
+    position: absolute;
+    top: 14px;
+    right: 24px;
+}
+
+.carSearch_btn::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../../images/search.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}

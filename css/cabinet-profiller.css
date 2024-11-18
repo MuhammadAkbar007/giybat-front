@@ -1,0 +1,89 @@
+.privacy-text {
+    font-size: 14px;
+}
+
+.privacy-text a {
+    color: #255cd2;
+}
+
+.privacy-text a:hover {
+    text-decoration: underline;
+}
+
+.profile_title {
+    margin-bottom: 24px;
+}
+
+.project_table {
+    margin-bottom: 40px;
+}
+
+.project_table,
+.project_tr {
+    width: 100%;
+}
+
+.project_table,
+.project_th,
+.project_td {
+    border: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.project_tr:nth-child(odd) {
+    background-color: #edf0f3;
+}
+
+.project_tr.project_tr:nth-child(1) {
+    background-color: #255cd2;
+}
+
+.project_th:nth-child(1),
+.project_td:nth-child(1) {
+    padding-left: 24px;
+}
+
+.project_td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.project_th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project_photo {
+    width: 40px;
+}
+
+.project_basket {
+    width: 24px;
+}
+
+.project_table tbody:nth-child(1) .project_th {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #ffffff;
+}
+
+.project_btn__first,
+.project_btn__second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.project_btn__first {
+    padding: 4px 20px;
+    background-color: #c8040a;
+}
+
+.project_btn__second {
+    padding: 4px 17.5px;
+    background-color: #0e7c12;
+}

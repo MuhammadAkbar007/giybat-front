@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/pagination.css" />
+        <link rel="stylesheet" href="./css/main-page.css" />
+        <link rel="stylesheet" href="./css/postlarim.css" />
+        <link rel="stylesheet" href="./css/search-result.css" />
+        <link rel="stylesheet" href="./css/craete-post.css" />
+        <link rel="stylesheet" href="./css/cabinet-settings.css" />
+        <link rel="stylesheet" href="./css/login.css" />
+        <link rel="stylesheet" href="./css/detail-paga.css" />
+        <link rel="stylesheet" href="./css/cabinet-profiller.css" />
+        <link rel="stylesheet" href="./css/registratio-confirm.css" />
+        <link rel="stylesheet" href="./css/registration.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header_container">
+                        <div class="header_box__logo">
+                            <a href="index.html">
+                                <img
+                                    src="./images/logo.png"
+                                    alt="Book"
+                                    class="header_logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="header_block">
+                            <div class="header_box__input">
+                                <input
+                                    type="text"
+                                    placeholder="Поиск"
+                                    class="header_input"
+                                />
+                                <button class="header_search"></button>
+                            </div>
+                            <div class="dropdown">
+                                <div
+                                    class="dropdown_toggle"
+                                    onclick="toggleDropdown()"
+                                >
+                                    <img
+                                        src="./images/language.svg"
+                                        alt="Глобус"
+                                        width="24"
+                                        height="24"
+                                    />
+                                    <span id="current-lang">RU</span>
+                                    <!-- Добавляем стрелку в виде символа -->
+                                    <img
+                                        src="./images/arrow1.svg"
+                                        alt="arrow"
+                                        class="arrow"
+                                    />
+                                    <!-- Стрелка вниз (▼) -->
+                                </div>
+                                <div
+                                    class="dropdown-content"
+                                    id="dropdown-content"
+                                >
+                                    <div onclick="setLanguage('UZ')">UZ</div>
+                                    <div onclick="setLanguage('RU')">RU</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="post" id="post">
+                <div class="container">
+                    <div class="post_container">
+                        <p class="post_text">Orqaga qaytish</p>
+                        <h2 class="post_title">G’iybatlarim o’zgartirish</h2>
+                        <div class="post_block">
+                            <h3 class="post_title__inner">
+                                Post uchun rasmlar
+                            </h3>
+                            <p class="post_text__inner">
+                                Diqqat! 4 ta gacha rasm joylash mumkin! Rasmlar
+                                razmeri 1mb dan oshishi mumkin emas.
+                            </p>
+                            <div class="post_block__pictures">
+                                <div class="post_img__box">
+                                    <button class="post_basket__btn"></button>
+                                    <img
+                                        src="./images/book7.png"
+                                        class="post_img"
+                                    />
+                                </div>
+                                <div class="post_img__box">
+                                    <button class="post_basket__btn"></button>
+                                    <img
+                                        src="./images/deposito.png"
+                                        class="post_img"
+                                    />
+                                </div>
+                                <div class="post_img__box add_content">
+                                    <button
+                                        class="post_additions__btn add_content__btn"
+                                    >
+                                        <span
+                                            class="post_span__vertical"
+                                        ></span>
+                                        <span
+                                            class="post_span__horizontal"
+                                        ></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="post_text__sub">
+                                *Birinchida turgan rasm Cover rasm bo’lib
+                                ishlatiladi!
+                            </p>
+                            <div class="post_form">
+                                <h3 class="post_title">Sarlavha</h3>
+                                <div class="post_textarea__box">
+                                    <label class="post_label">Title</label>
+                                    <textarea class="post_textarea">
+Asakabank”dan kredit berishning maxsus shartlari</textarea
+                                    >
+                                </div>
+                            </div>
+                            <div class="post_content">
+                                <h3 class="post_title">Post matni</h3>
+                                <div class="post_textarea__box">
+                                    <label class="post_label">Text area</label>
+                                    <textarea
+                                        class="post_textarea post_textarea2"
+                                    >
+Август 2024 года стал успешным месяцем для компании Kia в Узбекистане. Согласно данным группы компаний ADM Global, официального дистрибьютора бренда Kia в Узбекистане, общий объем продаж автомобилей марки составил 1966 единиц, что подчеркивает стабильный интерес к продукции корейского автопроизводителя на узбекском рынке. Рассмотрим подробнее, как распределились продажи по моделям и какие тенденции можно выделить в данном сегменте.
+                  </textarea
+                                    >
+                                </div>
+                            </div>
+                            <div class="post_btn__block">
+                                <button class="post_delete">O’chirish</button>
+                                <button class="post_save">
+                                    O’zgarishlarni saqlash
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_container">
+                    <div class="footer_logo__box">
+                        <a href="index.html">
+                            <img
+                                src="./images/logo2.png"
+                                alt="Book"
+                                class="header_logo"
+                            />
+                        </a>
+                    </div>
+                    <ul class="footer_list">
+                        <li class="footer_item">
+                            <a href="" class="footer_link">About project</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Telegram</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Videohub.uz</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Dasturlash.uz</a>
+                        </li>
+                        <li class="footer_item">© All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

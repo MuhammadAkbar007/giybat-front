@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/pagination.css" />
+        <link rel="stylesheet" href="./css/main-page.css" />
+        <link rel="stylesheet" href="./css/postlarim.css" />
+        <link rel="stylesheet" href="./css/search-result.css" />
+        <link rel="stylesheet" href="./css/craete-post.css" />
+        <link rel="stylesheet" href="./css/cabinet-settings.css" />
+        <link rel="stylesheet" href="./css/login.css" />
+        <link rel="stylesheet" href="./css/detail-paga.css" />
+        <link rel="stylesheet" href="./css/cabinet-profiller.css" />
+        <link rel="stylesheet" href="./css/registratio-confirm.css" />
+        <link rel="stylesheet" href="./css/registration.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header_container">
+                        <div class="header_box__logo">
+                            <a href="index.html">
+                                <img
+                                    src="./images/logo.png"
+                                    alt="Book"
+                                    class="header_logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="header_block">
+                            <div class="header_box__input">
+                                <input
+                                    type="text"
+                                    placeholder="Qidirish"
+                                    class="header_input"
+                                />
+                                <button class="header_search"></button>
+                            </div>
+                            <div class="dropdown">
+                                <div
+                                    class="dropdown_toggle"
+                                    onclick="toggleDropdown()"
+                                >
+                                    <img
+                                        src="./images/language.svg"
+                                        alt="Глобус"
+                                        width="24"
+                                        height="24"
+                                    />
+                                    <span id="current-lang">RU</span>
+                                    <!-- Добавляем стрелку в виде символа -->
+                                    <img
+                                        src="./images/arrow1.svg"
+                                        alt="arrow"
+                                        class="arrow"
+                                    />
+                                    <!-- Стрелка вниз (▼) -->
+                                </div>
+                                <div
+                                    class="dropdown-content"
+                                    id="dropdown-content"
+                                >
+                                    <div onclick="setLanguage('UZ')">UZ</div>
+                                    <div onclick="setLanguage('RU')">RU</div>
+                                </div>
+                            </div>
+                            <div class="header_btn__box">
+                                <div class="header_burger__box">
+                                    <i class="header_burger"></i>
+                                </div>
+                                <a href="login.html" class="header_btn"
+                                    >Log in</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id="hangan" class="hangan">
+                    <div class="container">
+                        <div class="hangan_container">
+                            <div class="hangan_img__box">
+                                <img
+                                    src="./images/book_first.png"
+                                    alt="Book first"
+                                />
+                            </div>
+                            <div class="hangan_content">
+                                <p class="hangan_text">Март 30, 2024</p>
+                                <h2 class="hangan_title">
+                                    At the Forefront of Time and Quantity,
+                                    CHANGAN Automobile Obtained 17 Level-3
+                                    Autonomous Driving Test Licenses CHANGAN
+                                    Automobile...
+                                </h2>
+                                <button class="hangan_btn">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="page" class="page">
+                    <div class="container">
+                        <div class="page_container">
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book1.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от
+                                        Asakabank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book2.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title page_short">
+                                        Программа Трейд-ин
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book3.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от Asia
+                                        Alliance Bank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book4.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от Asia
+                                        Alliance Bank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book5.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от Asia
+                                        Alliance Bank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book6.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от
+                                        Asakabank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book7.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title page_short">
+                                        Программа Трейд-ин
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book8.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title">
+                                        Специальные условия кредитования от
+                                        Asakabank
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                            <div class="page_box">
+                                <a href="post-detail.html">
+                                    <div class="page_img__box">
+                                        <img
+                                            src="./images/book9.png"
+                                            alt="Book1"
+                                            class="page_img"
+                                        />
+                                    </div>
+                                    <h3 class="page_title page_short">
+                                        Программа Трейд-ин
+                                    </h3>
+                                    <p class="page_text">14.04.2024</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="numbering" class="numbering">
+                    <div class="container">
+                        <div class="container_numbering">
+                            <div class="numbering_btn__box">
+                                <button class="numbering_btn back">
+                                    Orqaga
+                                </button>
+                            </div>
+                            <div class="numbering_block">
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_active">1</button>
+                                </div>
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_btn">2</button>
+                                </div>
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_btn">3</button>
+                                </div>
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_btn">4</button>
+                                </div>
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_btn">...</button>
+                                </div>
+                                <div class="numbering_btn__box">
+                                    <button class="numbering_btn">10</button>
+                                </div>
+                            </div>
+                            <div class="numbering_btn__box">
+                                <button class="numbering_btn forward">
+                                    Oldinga
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_container">
+                    <div class="footer_logo__box">
+                        <a href="index.html">
+                            <img
+                                src="./images/logo2.png"
+                                alt="Book"
+                                class="header_logo"
+                            />
+                        </a>
+                    </div>
+                    <ul class="footer_list">
+                        <li class="footer_item">
+                            <a href="" class="footer_link">About project</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Telegram</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Videohub.uz</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="" class="footer_link">Dasturlash.uz</a>
+                        </li>
+                        <li class="footer_item">© All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
